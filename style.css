@@ -474,6 +474,10 @@ main {
   padding: 2rem 1rem;
 }
 
+.initiatives-section .eyebrow {
+  color: #0068B5;
+}
+
 .initiatives-card {
   transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
 }
@@ -889,4 +893,40 @@ pre {
 pre {
   padding: 1rem;
   overflow-x: auto;
+}.vision-inner {
+  display: flex;
+  gap: 2rem;
+  align-items: stretch;
 }
+
+.vision-copy {
+  flex: 1;
+}
+
+.vision-cards {
+  flex: 2;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+}
+
+.vision-card {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+@media (max-width: 768px) {
+  .vision-inner {
+    flex-direction: column;
+  }
+
+  .vision-cards {
+    grid-template-columns: 1fr;
+  }
+
+  .vision-copy,
+  .vision-card {
+    width: 100%;
+  }
+}
+
