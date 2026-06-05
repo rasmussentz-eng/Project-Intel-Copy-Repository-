@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240">
+  <defs>
+    <linearGradient id="solar-sky" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#87ceeb"/>
+      <stop offset="100%" stop-color="#f0f8a8"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="240" fill="url(#solar-sky)"/>
+  <circle cx="350" cy="60" r="35" fill="#ffd700" opacity="0.8"/>
+  <g fill="#1a4a2a" opacity="0.7">
+    <rect x="60" y="130" width="25" height="75"/>
+    <rect x="150" y="115" width="28" height="90"/>
+    <rect x="245" y="125" width="25" height="80"/>
+  </g>
+  <g fill="#2a6a3a">
+    <path d="M65 130l-20-35 40-10 20 35z"/>
+    <path d="M65 130l20-35-40-10-20 35z"/>
+    <path d="M155 115l-22-40 44-12 22 40z"/>
+    <path d="M155 115l22-40-44-12-22 40z"/>
+    <path d="M250 125l-20-35 40-8 20 35z"/>
+    <path d="M250 125l20-35-40-8-20 35z"/>
+  </g>
+  <g fill="#4a9a5a" opacity="0.5">
+    <polygon points="65,130 55,95 85,95"/>
+    <polygon points="155,115 130,70 180,70"/>
+    <polygon points="250,125 235,90 265,90"/>
+  </g>
+  <g fill="#e8e850" opacity="0.3">
+    <circle cx="72" cy="100" r="12"/>
+    <circle cx="162" cy="82" r="14"/>
+    <circle cx="257" cy="95" r="11"/>
+  </g>
+  <rect x="40" y="205" width="320" height="25" fill="#4a8a5a" opacity="0.8" rx="4"/>
+  <text x="200" y="223" font-size="10" text-anchor="middle" fill="#f0f8a8" font-family="sans-serif" font-weight="bold">RENEWABLE ELECTRICITY 2023</text>
+</svg>

@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240">
+  <defs>
+    <linearGradient id="fab-grad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#e6e6e6"/>
+      <stop offset="100%" stop-color="#c8c8c8"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="240" fill="url(#fab-grad)"/>
+  <rect x="40" y="55" width="320" height="130" rx="12" fill="#f0f0f0" stroke="#a0a0a0" stroke-width="2"/>
+  <g fill="#4a4a4a" opacity="0.8">
+    <rect x="70" y="75" width="32" height="85" rx="3"/>
+    <rect x="125" y="70" width="32" height="92" rx="3"/>
+    <rect x="180" y="78" width="32" height="82" rx="3"/>
+    <rect x="235" y="72" width="32" height="90" rx="3"/>
+    <rect x="290" y="76" width="32" height="86" rx="3"/>
+  </g>
+  <g fill="#2a2a2a">
+    <circle cx="86" cy="95" r="4"/>
+    <circle cx="86" cy="115" r="4"/>
+    <circle cx="86" cy="135" r="4"/>
+    <circle cx="141" cy="92" r="4"/>
+    <circle cx="141" cy="112" r="4"/>
+    <circle cx="141" cy="132" r="4"/>
+    <circle cx="196" cy="100" r="4"/>
+    <circle cx="196" cy="120" r="4"/>
+    <circle cx="196" cy="140" r="4"/>
+    <circle cx="251" cy="96" r="4"/>
+    <circle cx="251" cy="116" r="4"/>
+    <circle cx="251" cy="136" r="4"/>
+    <circle cx="306" cy="98" r="4"/>
+    <circle cx="306" cy="118" r="4"/>
+    <circle cx="306" cy="138" r="4"/>
+  </g>
+  <rect x="120" y="88" width="160" height="70" fill="#f5f5f5" opacity="0.7" rx="8" stroke="#a0a0a0" stroke-width="1"/>
+  <path d="M140 110h120" stroke="#7a7a7a" stroke-width="1" opacity="0.5"/>
+  <path d="M140 130h120" stroke="#7a7a7a" stroke-width="1" opacity="0.5"/>
+  <g fill="#d0d0d0" opacity="0.6">
+    <circle cx="85" cy="65" r="3"/>
+    <circle cx="140" cy="62" r="3"/>
+    <circle cx="195" cy="66" r="3"/>
+    <circle cx="250" cy="63" r="3"/>
+    <circle cx="305" cy="65" r="3"/>
+  </g>
+  <rect x="50" y="190" width="300" height="28" fill="#dcdcdc" rx="4"/>
+</svg>
